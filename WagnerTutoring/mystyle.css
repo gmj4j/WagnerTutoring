@@ -1,0 +1,153 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a, div {
+        padding: 0;
+        margin: 0;
+        font-family: 'Quattrocento', serif;
+      }
+      
+.nav {
+	width: 100%;
+}
+.header-wrap{
+	padding-top: 50px;
+	padding-bottom: 5px;
+	width: 960px;
+	margin: 0 auto 0 auto;
+}
+.header-wrap span{
+    font-size: 30px;
+}
+.nav-wrap{
+	width: 960px;
+	margin: 0 auto 20px auto;
+	padding: 10px 0 10px 0;
+	font-size: 14px;
+}
+
+.nav-wrap a:hover{
+	color: #aaa;
+}
+
+
+ul li{
+	display: inline-block;
+	padding: 0 15px 0 15px;
+}
+
+ul li:first-child{
+	padding-left: 0;
+}
+
+.main-wrap{
+	border-top: 1px dashed #ddd;
+	border-bottom: 1px dashed #ddd;
+	background-color: rgb(246, 246, 246);
+	height: 424px;
+}
+
+.main-info{
+	margin: 0 auto 0 auto;
+	width: 960px;
+	margin-top: 50px;
+}
+
+.footer-email{
+	padding: 15px 0 15px 0;
+	font-size: 14px;
+	width: 650px;
+	margin: 0 auto 0 auto;
+}
+
+.main-heading{
+	float: right;
+	width: 520px;
+	height: 200px;
+	padding: 90px 50px 0 0;
+}
+
+.main-welcome{
+	color: #484747;
+	font-size: 36px;
+}
+
+.main-text{
+	font-size: 14px;
+	line-height: 1.5;
+	color: #656565;
+}
+
+.main-image{
+	padding: 0;
+	float: left;
+	width: 324px;
+}
+.round {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 325px;
+    height: 324px;
+    float: left;
+}
+.round img {
+    display: block;
+	min-width: 100%;
+	min-height: 100%;
+}
+.email {
+	font-weight: bold;
+	display: inline;
+}
+.nav-wrap a{
+	font-weight: normal;
+	text-decoration: none;
+	color: black;
+}
+#active{
+	color: #aaa;
+}
+.about-wrap{
+	border-top: 1px dashed #ddd;
+	border-bottom: 1px dashed #ddd;
+	background-color: rgb(246, 246, 246);
+	height: 178px;
+}
+
+.about-info{
+	margin: 0 auto 0 auto;
+	width: 960px;
+}
+.maintext-wrap{
+	height: 620px;
+}
+
+.maintext-info{
+	margin: 0 auto 0 auto;
+	width: 960px;
+	padding: 20px 0 20px 0;
+}
+.image-comment{
+	font-size: 13px;
+	text-align: right;
+	color: #3e3e3e;
+}
+.content-header{
+	font-weight: normal;
+	padding: 20px 0 0 0;
+}
+.paragraph{
+	padding: 12px 0 0 0;
+	line-height: 1.5;
+	font-size: 14px;
+	color: #3e3e3e;
+}
+.benefitstext-wrap{
+	height: 520px;
+}
+.benefits-paragraph{
+	padding: 30px 0 0 0;
+	line-height: 1.5;
+	font-size: 14px;
+	color: #3e3e3e;
+}
+strong{
+	font-size: 16px;
+}
